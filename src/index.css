@@ -1,0 +1,79 @@
+/* 🌿 Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #f0fdf4;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1b4332;
+  scroll-behavior: smooth;
+}
+
+/* 🔗 Lien */
+a {
+  color: #2d6a4f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🔠 Titres */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #2d6a4f;
+  margin-bottom: 20px;
+}
+
+/* 📦 Section */
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* 📎 Cards & containers */
+.card {
+  background-color: #e9f5ec;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+/* ✅ Formulaires */
+form input,
+form textarea {
+  border: 1px solid #b7e4c7;
+  border-radius: 6px;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #40916c;
+  box-shadow: 0 0 0 0.2rem rgba(64, 145, 108, 0.25);
+}
+
+/* 📍 Carte */
+.leaflet-container {
+  height: 500px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* 📦 Footer */
+footer {
+  background-color: #2d6a4f;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
